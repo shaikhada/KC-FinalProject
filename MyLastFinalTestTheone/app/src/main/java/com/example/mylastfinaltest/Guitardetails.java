@@ -25,9 +25,9 @@ public class Guitardetails extends AppCompatActivity {
                 CardView secondcardview = findViewById(R.id.guitar_second_card);
                 CardView thirdcardview = findViewById(R.id.guitar_third_card);
                 CardView forthcardview = findViewById(R.id.guitar_forth_card);
-//                HorizontalScrollView horizontalScrollView2 = findViewById(R.id.Scrollviewid2);
-//                CardView first_music_card = findViewById(R.id.guitarmusic_first_card);
-//                CardView second_music_card = findViewById(R.id.guitarmusic_second_card);
+                HorizontalScrollView horizontalScrollView2 = findViewById(R.id.Scrollviewid2);
+                CardView first_music_card = findViewById(R.id.guitarmusic_first_card);
+                CardView second_music_card = findViewById(R.id.guitarmusic_second_card);
 
 
 
@@ -66,21 +66,21 @@ public class Guitardetails extends AppCompatActivity {
                     }
                 });
 
-//                first_music_card.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        Intent first_music_cardview = new Intent(Guitardetails.this , FirstViolinMusic.class);
-//                        startActivity(first_music_cardview);
-//                    }
-//                });
+                first_music_card.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent first_music_cardview = new Intent(Guitardetails.this , FirstViolinMusic.class);
+                        startActivity(first_music_cardview);
+                    }
+                });
 
-//                second_music_card.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        Intent second_music_cardview = new Intent(Guitardetails.this , SecondGuitarMusic.class);
-//                        startActivity(second_music_cardview);
-//                    }
-//                });
+                second_music_card.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent second_music_cardview = new Intent(Guitardetails.this , SecondGuitarMusic.class);
+                        startActivity(second_music_cardview);
+                    }
+                });
 
 
                 returnimageview.setOnClickListener(new View.OnClickListener() {

@@ -24,10 +24,10 @@ public class Violindetails extends AppCompatActivity {
         CardView secondcardview = findViewById(R.id.violin_second_card);
         CardView thirdcardview = findViewById(R.id.violin_third_card);
         CardView forthcardview = findViewById(R.id.violin_forth_card);
-//        HorizontalScrollView horizontalScrollView2 = findViewById(R.id.Scrollviewid2);
-//        CardView first_music_card = findViewById(R.id.violinmusic_first_card);
-//        CardView second_music_card = findViewById(R.id.violinmusic_second_card);
-//        CardView third_music_card = findViewById(R.id.violinmusic_third_card);
+        HorizontalScrollView horizontalScrollView2 = findViewById(R.id.Scrollviewid2);
+        CardView first_music_card = findViewById(R.id.violinmusic_first_card);
+        CardView second_music_card = findViewById(R.id.violinmusic_second_card);
+        CardView third_music_card = findViewById(R.id.violinmusic_third_card);
 
 
 
@@ -63,31 +63,31 @@ public class Violindetails extends AppCompatActivity {
             }
         });
 
-//        first_music_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent first_music_cardview = new Intent(Violindetails.this ,FirstViolinMusic.class);
-//                startActivity(first_music_cardview);
-//            }
-//        });
+        first_music_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent first_music_cardview = new Intent(Violindetails.this ,FirstViolinMusic.class);
+                startActivity(first_music_cardview);
+            }
+        });
 
 
-//        second_music_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent second_music_cardview = new Intent(Violindetails.this , SecondViolinMusic.class);
-//                startActivity(second_music_cardview);
-//            }
-//        });
+        second_music_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent second_music_cardview = new Intent(Violindetails.this , SecondViolinMusic.class);
+                startActivity(second_music_cardview);
+            }
+        });
 
 
-//        third_music_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent third_music_cardview = new Intent(Violindetails.this , ThirdViolinMusic.class);
-//                startActivity(third_music_cardview);
-//            }
-//        });
+        third_music_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent third_music_cardview = new Intent(Violindetails.this , ThirdViolinMusic.class);
+                startActivity(third_music_cardview);
+            }
+        });
 
 
         returnimageview.setOnClickListener(new View.OnClickListener() {

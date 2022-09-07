@@ -14,6 +14,39 @@
         android:theme="@style/Theme.MyLastFinalTest"
         tools:targetApi="31">
         <activity
+            android:name=".ThirdViolinMusic"
+            android:exported="false" />
+        <activity
+            android:name=".SecondViolinMusic"
+            android:exported="false" />
+        <activity
+            android:name=".FirstViolinMusic"
+            android:exported="false" />
+        <activity
+            android:name=".SecondGuitarMuisc"
+            android:exported="false" />
+        <activity
+            android:name=".FirstGuitarMuisc"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdOudMusic"
+            android:exported="false" />
+        <activity
+            android:name=".SecondOudMusic"
+            android:exported="false" />
+        <activity
+            android:name=".FirstOudMuisc"
+            android:exported="false" />
+        <activity
+            android:name=".ForthPianoMusic"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdPianoMuisc"
+            android:exported="false" />
+        <activity
+            android:name=".FirstPianoMusic"
+            android:exported="false" />
+        <activity
             android:name=".SecondPianoMusic"
             android:exported="false" />
         <activity

@@ -24,10 +24,10 @@ public class Ouddetails extends AppCompatActivity {
         CardView firstcardview = findViewById(R.id.oud_first_card);
         CardView secondcardview = findViewById(R.id.oud_second_card);
         CardView thirdcardview = findViewById(R.id.oud_third_card);
-//        HorizontalScrollView horizontalScrollView12 = findViewById(R.id.Scrollviewid2);
-//        CardView first_music_card = findViewById(R.id.oudmusic_first_card);
-//        CardView second_music_card = findViewById(R.id.oudmusic_second_card);
-//        CardView third_music_card = findViewById(R.id.oudmusic_third_card);
+        HorizontalScrollView horizontalScrollView12 = findViewById(R.id.Scrollviewid2);
+        CardView first_music_card = findViewById(R.id.oudmusic_first_card);
+        CardView second_music_card = findViewById(R.id.oudmusic_second_card);
+        CardView third_music_card = findViewById(R.id.oudmusic_third_card);
 
 
 
@@ -59,30 +59,30 @@ public class Ouddetails extends AppCompatActivity {
             }
         });
 
-//        first_music_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent first_music_cardview = new Intent(Ouddetails.this , FirstOudMusic.class);
-//                startActivity(first_music_cardview);
-//            }
-//        });
+        first_music_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent first_music_cardview = new Intent(Ouddetails.this , FirstOudMuisc.class);
+                startActivity(first_music_cardview);
+            }
+        });
 
-//        second_music_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent second_music_cardview = new Intent(Ouddetails.this , SecondOudMusic.class);
-//                startActivity(second_music_cardview);
-//            }
-//        });
+        second_music_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent second_music_cardview = new Intent(Ouddetails.this , SecondOudMusic.class);
+                startActivity(second_music_cardview);
+            }
+        });
 
-//
-//        third_music_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent third_music_cardview = new Intent(Ouddetails.this , ThirdOudMusic.class);
-//                startActivity(third_music_cardview);
-//            }
-//        });
+
+        third_music_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent third_music_cardview = new Intent(Ouddetails.this , ThirdOudMusic.class);
+                startActivity(third_music_cardview);
+            }
+        });
 
 
 

@@ -26,13 +26,13 @@ public class Pianodetails extends AppCompatActivity {
         CardView thirdcardview = findViewById(R.id.piano_third_card);
         CardView forthcardview = findViewById(R.id.piano_forth_card);
         HorizontalScrollView horizontalScrollView2 = findViewById(R.id.Scrollviewid2);
-//        CardView first_music_card = findViewById(R.id.pianomusic_first_card);
+        CardView first_music_card = findViewById(R.id.pianomusic_first_card);
         CardView second_music_card = findViewById(R.id.pianomusic_second_card);
-//        CardView third_music_card = findViewById(R.id.pianomusic_third_card);
-//        CardView forth_music_card = findViewById(R.id.pianomusic_forth_card);
-//
-//
-//
+        CardView third_music_card = findViewById(R.id.pianomusic_third_card);
+        CardView forth_music_card = findViewById(R.id.pianomusic_forth_card);
+
+
+
         firstcardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -69,15 +69,15 @@ public class Pianodetails extends AppCompatActivity {
 
 
 
-//        first_music_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent first_music_cardview = new Intent(Pianodetails.this , FirstPianoMusic.class);
-//                startActivity(first_music_cardview);
-//            }
-//        });
-//
-//
+        first_music_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent first_music_cardview = new Intent(Pianodetails.this , FirstPianoMusic.class);
+                startActivity(first_music_cardview);
+            }
+        });
+
+
         second_music_card.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,23 +85,23 @@ public class Pianodetails extends AppCompatActivity {
                 startActivity(second_music_cardview);
             }
         });
-//
-//
-//        third_music_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent third_music_cardview = new Intent(Pianodetails.this , ThirdPianoMusic.class);
-//                startActivity(third_music_cardview);
-//            }
-//        });
-//
-//        forth_music_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent forth_music_cardview = new Intent(Pianodetails.this , ForthPianoMusic.class);
-//                startActivity(forth_music_cardview);
-//            }
-//        });
+
+
+        third_music_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent third_music_cardview = new Intent(Pianodetails.this , ThirdPianoMuisc.class);
+                startActivity(third_music_cardview);
+            }
+        });
+
+        forth_music_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent forth_music_cardview = new Intent(Pianodetails.this , ForthPianoMusic.class);
+                startActivity(forth_music_cardview);
+            }
+        });
 
 
         returnimageview.setOnClickListener(new View.OnClickListener() {
