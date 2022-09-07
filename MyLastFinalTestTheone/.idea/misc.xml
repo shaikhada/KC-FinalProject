@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1665" />
+        <entry key="app/src/main/res/layout/activity_first.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_first_guitar_video.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_first_oud_video.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_first_piano_video.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_first_violin_video.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_forth_guitar_video.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_forth_piano_video.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_forth_violin_video.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_guitardetails.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_ouddetails.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_pianodetails.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_second_guitar_video.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_second_oud_video.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_second_piano_music.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_second_piano_video.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_second_violin_video.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_third_guitar_video.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_third_oud_video.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_third_piano_video.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_third_violin_video.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_violindetails.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

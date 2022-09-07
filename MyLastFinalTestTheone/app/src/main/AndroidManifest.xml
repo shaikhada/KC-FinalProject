@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mylastfinaltest">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyLastFinalTest"
+        tools:targetApi="31">
+        <activity
+            android:name=".SecondPianoMusic"
+            android:exported="false" />
+        <activity
+            android:name=".ForthViolinVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdViolinVideo"
+            android:exported="false" />
+        <activity
+            android:name=".SecondViolinVideo"
+            android:exported="false" />
+        <activity
+            android:name=".FirstViolinVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ForthGuitarVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdGuitarVideo"
+            android:exported="false" />
+        <activity
+            android:name=".SecondGuitarVideo"
+            android:exported="false" />
+        <activity
+            android:name=".FirstGuitarVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdOudVideo"
+            android:exported="false" />
+        <activity
+            android:name=".SecondOudVideo"
+            android:exported="false" />
+        <activity
+            android:name=".FirstOudVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ForthPianoVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdPianoVideo"
+            android:exported="false" />
+        <activity
+            android:name=".SecondPianoVideo"
+            android:exported="false" />
+        <activity
+            android:name=".FirstPianoVideo"
+            android:exported="false" />
+        <activity
+            android:name=".Violindetails"
+            android:exported="false" />
+        <activity
+            android:name=".Guitardetails"
+            android:exported="false" />
+        <activity
+            android:name=".Ouddetails"
+            android:exported="false" />
+        <activity
+            android:name=".Pianodetails"
+            android:exported="false" />
+        <activity
+            android:name=".FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
